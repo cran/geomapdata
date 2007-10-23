@@ -39,7 +39,23 @@
 }
 
 \examples{
-data(africa.bdy)
+
+\dontrun{
+
+library(GEOmap)
+data(worldmap)
+data(namer.bdy)
+data(namer.riv)
+
+plotGEOmap(worldmap)
+plotGEOmap(namer.bdy ,  add=TRUE)
+
+plotGEOmap(namer.riv ,  add=TRUE)
+}
+
+
+
+
 ##
 }
 \keyword{datasets}

@@ -27,7 +27,12 @@
 }
 
 \examples{
+\dontrun{
+library(GEOmap)
 data(kammap)
-## maybe str(kammap) ; plot(kammap) ...
+plotGEOmap(kammap)
+
+}
+
 }
 \keyword{datasets}

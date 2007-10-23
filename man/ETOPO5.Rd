@@ -23,8 +23,29 @@ Data Announcement 88-MGG-02, Digital relief of the Surface of the Earth. NOAA, N
   
 }
 \examples{
+
+\dontrun{
+library(GEOmap)
 data(ETOPO5)
-## maybe str(ETOPO5) ; plot(ETOPO5) ...
+
+data(fujitopo)
+data(japmap)
+PLOC=list(LON=c(137.008, 141.000),LAT=c(34.000, 36.992),
+            x=c(137.008, 141.000), y=c(34.000, 36.992) )
+
+
+
+JAPANtopo = subsetTOPO(ETOPO5, PLOC)
+
+d1 = dim(JAPANtopo$z)
+
+JAPANtopo$z = JAPANtopo$z[  , d1[2]:1 ]
+
+image(JAPANtopo, col=terrain.colors(100), asp=1 )
+plotGEOmap(japmap, add=TRUE)
+
+
+}
 
 
 }
