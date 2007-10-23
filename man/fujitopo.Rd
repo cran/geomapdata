@@ -1,0 +1,26 @@
+\name{fujitopo}
+\alias{fujitopo}
+\docType{data}
+\title{Topographic DEM of Japan}
+\description{
+Topography in Japan
+}
+\usage{data(fujitopo)}
+\format{
+  \item{lat}{latitude}
+  \item{lon}{longitude}
+  \item{z}{elevation}
+  }
+\details{
+This data comes as triplets of LAT-LON-Z
+}
+\source{
+
+Japan Meteriological Society
+}
+
+\examples{
+data(fujitopo)
+## maybe str(fujitopo) ; plot(fujitopo) ...
+}
+\keyword{datasets}
