@@ -10,10 +10,12 @@
 }
 \usage{data(usacity)}
 \format{
+  \describe{
   \item{name}{name of city}
   \item{lat}{latitude}
   \item{lon}{longitude}
-  \item{p}{population} 
+  \item{p}{population}
+  }
 }
 \details{
 World cities have no population (yet).

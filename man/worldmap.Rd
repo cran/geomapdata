@@ -10,10 +10,11 @@
 \usage{data(worldmap)}
 \format{
   List structure:
+  \describe{
   \item{STROKES}{list(nam, num, index, col, style, code, LAT1, LAT2, LON1, LON2)}
   \item{POINTS}{list(lat, lon)}
   \item{PROJ}{list(type, LAT0, LON0, LAT1, LAT2, LATS, LONS, DLAT, DLON, FE, FN, name)}
-
+}
 }
 \details{
 

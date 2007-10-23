@@ -7,9 +7,11 @@ Topography in Japan
 }
 \usage{data(fujitopo)}
 \format{
+  \describe{
   \item{lat}{latitude}
   \item{lon}{longitude}
   \item{z}{elevation}
+  }
   }
 \details{
 This data comes as triplets of LAT-LON-Z
