@@ -23,22 +23,8 @@
  }
 
 
- \examples{
-
-\dontrun{
-library(GEOmap)
+\examples{
 data(worldmap)
-data(namer.bdy)
-data(namer.riv)
-
-
-plotGEOmap(worldmap)
-plotGEOmap(namer.bdy ,  add=TRUE)
-
-plotGEOmap(namer.riv ,  add=TRUE)
-}
-
-
-
+## maybe str(worldmap) ; plot(worldmap) ...
 }
 \keyword{datasets}

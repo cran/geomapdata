@@ -12,7 +12,7 @@ Topographic and Geologic Mapping
 \tabular{ll}{
 Package: \tab geomapdata\cr
 Type: \tab Package\cr
-Version: \tab 1.0-4\cr
+Version: \tab 1.0-3\cr
 Date: \tab 2007-10-23\cr
 License: \tab GPL\cr
 }
@@ -69,20 +69,7 @@ Lees, J. M., Geotouch: Software for Three and Four Dimensional GIS in the Earth 
 \seealso{GEOmap}
 \examples{
 
-\dontrun{
-library(GEOmap)
 data(worldmap)
-data(namer.bdy)
-data(namer.riv)
-
-
-plotGEOmap(worldmap)
-plotGEOmap(namer.bdy ,  add=TRUE)
-
-plotGEOmap(namer.riv ,  add=TRUE)
-
-
-}
 
 
 }

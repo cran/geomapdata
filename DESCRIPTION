@@ -1,15 +1,17 @@
 Package: geomapdata
 Type: Package
-Title: Data for topographic and Geologic Mapping
-Version: 1.0-4
-Date: 2007-10-23
+Title: Data for Topographic and Geologic Mapping
+Version: 2.0-0
+Date: 2022-05-03
 Suggests: GEOmap
-Author: Jonathan M. Lees
-Maintainer: Jonathan M. Lees<jonathan.lees@unc.edu>
-Depends: R (>= 2.10)
-Description: Set of data for use in package GEOmap.  Includes world
-        map, USA map, Coso map, Japan Map, ETOPO5
+Authors@R: c(person(given="Jonathan M.", family="Lees",
+                    role = c("aut", "cre"), email = "jonathan.lees@unc.edu"))
+Author: Jonathan M. Lees [aut, cre]
+Maintainer: Jonathan M. Lees <jonathan.lees@unc.edu>
+Description: Data sets included here are for use with package GEOmap. These include world map, USA map, Coso map, Japan Map.
 License: GPL
-Packaged: 2012-10-29 08:58:49 UTC; ripley
+Packaged: 2022-05-03 13:50:05 UTC; lees
+NeedsCompilation: no
+Depends: R (>= 2.10)
 Repository: CRAN
-Date/Publication: 2012-10-29 08:58:53
+Date/Publication: 2022-05-03 14:30:07 UTC

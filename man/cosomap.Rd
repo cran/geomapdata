@@ -33,22 +33,18 @@
 
 }
 \examples{
-
-\dontrun{
-
 data(cosomap)
 data(faults)
 data(hiways)
 data(owens)
 
 ##
-
+\dontrun{
 proj = cosomap$PROJ
 plotGEOmapXY(cosomap, PROJ=proj,  add=FALSE, ann=FALSE, axes=FALSE)
 plotGEOmapXY(hiways, PROJ=proj,  add=TRUE, ann=FALSE, axes=FALSE)
 plotGEOmapXY(owens, PROJ=proj,  add=TRUE, ann=FALSE, axes=FALSE)
 plotGEOmapXY(faults, PROJ=proj,  add=TRUE, ann=FALSE, axes=FALSE)
-
 }
 
 
